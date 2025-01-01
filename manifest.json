@@ -9,7 +9,7 @@
     },
     "api": {
         "type": "openapi",
-        "url": "https://your-domain.com/openapi.json"
+        "url": "https://kenjji1.github.io/kepler3-plugin/openapi.json"
     },
     "logo_url": "https://your-domain.com/logo.png",
     "contact_email": "support@kepler3.com",
