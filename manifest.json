@@ -1,0 +1,17 @@
+{
+    "schema_version": "v1",
+    "name_for_model": "kepler3_plugin",
+    "name_for_human": "Kepler 3",
+    "description_for_model": "Plugin pour interroger Kepler 3 sur des données astronomiques.",
+    "description_for_human": "Interrogez Kepler 3 pour obtenir des données précises.",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "https://your-domain.com/openapi.json"
+    },
+    "logo_url": "https://your-domain.com/logo.png",
+    "contact_email": "support@kepler3.com",
+    "legal_info_url": "https://kepler3.com/legal"
+}
