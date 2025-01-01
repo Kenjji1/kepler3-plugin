@@ -1,0 +1,55 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+        "title": "Kepler 3 API",
+        "version": "1.0.0",
+        "description": "API pour interroger Kepler 3 sur des données astronomiques précises."
+    },
+    "paths": {
+        "/interroger": {
+            "post": {
+                "summary": "Interroger Kepler 3",
+                "description": "Envoyer une question pour obtenir des données astronomiques.",
+                "operationId": "getAstronomyData",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "question": {
+                                        "type": "string",
+                                        "description": "La question posée à Kepler 3."
+                                    }
+                                },
+                                "required": ["question"]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Réponse réussie",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "data": {
+                                            "type": "string",
+                                            "description": "La réponse de Kepler 3."
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Erreur dans la requête"
+                    }
+                }
+            }
+        }
+    }
+}
