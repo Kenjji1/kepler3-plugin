@@ -11,7 +11,7 @@
         "type": "openapi",
         "url": "https://kenjji1.github.io/kepler3-plugin/openapi.json"
     },
-    "logo_url": "https://your-domain.com/logo.png",
+    "logo_url": "https://kenjji1.github.io/kepler3-plugin/openapi.json",
     "contact_email": "support@kepler3.com",
     "legal_info_url": "https://kepler3.com/legal"
 }
